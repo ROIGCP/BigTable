@@ -1,4 +1,4 @@
-# How to query BigTable from BigQuery
+# How to query Bigtable from BigQuery
 
 Requires:
     BigQuery Console 
