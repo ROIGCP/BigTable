@@ -3,12 +3,13 @@
 Requires:
     BigQuery Console 
 
-Example SQL Statement to created external table
+Example SQL Statement to created external table\
+
 Replace:\
-    BQDATASET.BQTABLE with desired BigQuery dataset.table\
-    PROJECTNAME with the project containing the Bigtable instance\
-    INSTANCENAME with the Bigtable instance\
-    TABLENAME with the Bigtable table name\
+    `BQDATASET.BQTABLE` with desired BigQuery dataset.table\
+    `PROJECTNAME` with the project containing the Bigtable instance\
+    `INSTANCENAME` with the Bigtable instance\
+    `TABLENAME` with the Bigtable table name\
     
     `CREATE or REPLACE EXTERNAL TABLE BQDATASET.BQTABLE
     OPTIONS (
