@@ -25,18 +25,18 @@ Using sample from cbt.md file loaded (see https://github.com/ROIGCP/BigTable/blo
 NOTE: all values are binary encoded  - use cast(column as STRING))
 
 select rowkey from BQDATASET.BQTABLE limit 1\
-(Results viewed as JSON)
-[{
-  "rowkey": "S0VZQUFB"
-}]
+(Results viewed as JSON)\
+`[{`\
+`  "rowkey": "S0VZQUFB"\`
+`}]`
 
 select cast(rowkey as string) as rowkey from BQDATASET.BQTABLE limit 1
-[{
-  "rowkey": "KEYAAA"
-}]
+`[{`\
+  `"rowkey": "KEYAAA"`\
+`}]`\
 
 select * from BQDATASET.BQTABLE limit 1
-[{
+`[{
   "rowkey": "S0VZQUFB",
   "columnfamily1": {
     "column": [{
@@ -71,4 +71,4 @@ select * from BQDATASET.BQTABLE limit 1
       }]
     }]
   }
-}]
+}]`
