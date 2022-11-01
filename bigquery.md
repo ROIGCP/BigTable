@@ -30,12 +30,12 @@ select rowkey from BQDATASET.BQTABLE limit 1\
   "rowkey": "S0VZQUFB"
 }]`
 
-select cast(rowkey as string) as rowkey from BQDATASET.BQTABLE limit 1
+select cast(rowkey as string) as rowkey from BQDATASET.BQTABLE limit 1\
 `[{
   "rowkey": "KEYAAA"
 }]`
 
-select * from BQDATASET.BQTABLE limit 1
+select * from BQDATASET.BQTABLE limit 1\
 `[{
   "rowkey": "S0VZQUFB",
   "columnfamily1": {
