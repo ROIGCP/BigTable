@@ -11,3 +11,12 @@ NOTE: key column does NOT get a name\
   `,columnfamily,,,
   ,column1name,column2name,column3name
   key,column1,column2,column3`
+  
+Sample CSV file (save as `sample.csv`/also available as sample.csv in this git repository)\
+,colfamily1,,colfamily2
+,column1,column2,column3,column4
+KEYABC,ABC,123,Chicago,Illinois
+KEYXYZ,XYZ,789,Portland,Oregon
+
+Import into cbt\
+`cbt -instance BIGTABLEINSTANCE import TABLENAME sample.csv`
