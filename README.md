@@ -15,7 +15,7 @@ Command Line Interface setup: `cbt`\
 Requires: Installation of the Google Cloud SDK (https://cloud.google.com/sdk). `cbt` is an optional component\
     Command to install: `gcloud components install cbt`
 
-Python setup:\ 
+Python setup:\
     Environment: `requirements.txt` (`pip install --requirement requirements.txt`)\
       `google-cloud-bigtable`\
       `google-cloud-core`
