@@ -10,6 +10,7 @@ NOTE: key column does NOT get a name\
   key,column1,column2,column3`
   
 Sample CSV file (save as `sample.csv`/also available as sample.csv in this git repository)\
+(Note: the leading and trailing , in the header rows are important!)\
 ,columnfamily1,,columnfamily2,\
 ,column1,column2,column3,column4\
 KEYAAA,ABC,111,Elmhurst,Illinois\
