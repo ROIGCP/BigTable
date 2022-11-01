@@ -9,7 +9,7 @@ Replace:\
     `BQDATASET.BQTABLE` with desired BigQuery dataset.table\
     `PROJECTNAME` with the project containing the Bigtable instance\
     `INSTANCENAME` with the Bigtable instance\
-    `TABLENAME` with the Bigtable table name\
+    `TABLENAME` with the Bigtable table name
     
     `CREATE or REPLACE EXTERNAL TABLE BQDATASET.BQTABLE
     OPTIONS (
@@ -18,3 +18,5 @@ Replace:\
     bigtable_options = 
     """{}"""
     );`
+
+Table will now appear in the BigQuery Dataset as an external table.
