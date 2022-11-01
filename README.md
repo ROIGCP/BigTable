@@ -1,4 +1,4 @@
-# Welcome to Useful Cloud Bigtable Information
+# Welcome to Cloud Bigtable Useful Information and Samples
 
 This repo has some basics on Cloud Bigtable\
 
