@@ -22,9 +22,9 @@ KEYZZZ,ZZZ,999,Portland,Oregon
 Import into cbt\
 `cbt -instance BIGTABLEINSTANCE import TABLENAME sample.csv`
 
-Query Table for a specific key (lookup)
+Query Table for a specific key (lookup)\
 `cbt -instance BIGTABLEINSTANCE lookup TABLENAME "KEYABC"`
 
-Query Table for a range of keys (read)
+Query Table for a range of keys (read)\
 `cbt -instance BIGTABLEINSTANCE read TABLENAME start="KEYABC" end="KEYXYZ"`
 
