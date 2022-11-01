@@ -3,3 +3,11 @@
 Full reference: https://cloud.google.com/bigtable/docs/cbt-reference\
 
 
+Import CSV file
+
+
+Sample CSV format\
+NOTE: key column does NOT get a name\
+  `,columnfamily,,,
+  ,column1name,column2name,column3name
+  key,column1,column2,column3`
