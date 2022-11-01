@@ -10,12 +10,12 @@ NOTE: key column does NOT get a name\
   key,column1,column2,column3`
   
 Sample CSV file (save as `sample.csv`/also available as sample.csv in this git repository)\
-,columnfamily1,,columnfamily2,
-,column1,column2,column3,column4
-KEYAAA,ABC,111,Elmhurst,Illinois
-KEYABC,ABC,123,Chicago,Illinois
-KEYDEF,DEF,456,Butte,Montana
-KEYXYZ,XYZ,789,Seattle,Washington
+,columnfamily1,,columnfamily2,\
+,column1,column2,column3,column4\
+KEYAAA,ABC,111,Elmhurst,Illinois\
+KEYABC,ABC,123,Chicago,Illinois\
+KEYDEF,DEF,456,Butte,Montana\
+KEYXYZ,XYZ,789,Seattle,Washington\
 KEYZZZ,ZZZ,999,Portland,Oregon
 
 Import into cbt\
